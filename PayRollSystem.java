@@ -171,7 +171,7 @@ public class PayRollSystem {
 
         FullTimeEmployee emp1 = new FullTimeEmployee("Thorin Okenshield", 1, new Date(), 81000.00, 5000.00);
         PartTimeEmployee emp2 = new PartTimeEmployee("Gandalf The Gray", 2, new Date(), 2700, 243.09, 27.00);
-        ContractEmployee emp3 = new ContractEmployee("Bilbo Baggins", 3, new Date(), 50000.00, new Date(System.currentTimeMillis() + 90L * 24 * 60 * 60 * 1000));
+        ContractEmployee emp3 = new ContractEmployee("Bilbo Baggins", 3, new Date(), 90000.00, new Date(System.currentTimeMillis() + 90L * 24 * 60 * 60 * 1000));
 
         PayrollCal.addEmployee(emp1);
         PayrollCal.addEmployee(emp2);
